@@ -1,0 +1,150 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@700&family=Poppins:wght@300;400;500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  transition: 0.2s linear;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  background: #000;
+}
+.btn{
+  margin-top: 2rem;
+  width: 150px;
+  padding: 12px;
+  color: #fff;
+  background: tomato;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn:hover{
+  background: rgba(212, 48, 48, 0.76);
+  transition: 0.4s;
+}
+/* Header */
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  padding: 1.5rem 8%;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  justify-content: space-between;
+}
+.header .logo{
+  font-size: 22px;
+  font-weight: bolder;
+  color: #fff;
+  padding-right: 10px;
+  margin-right: 20rem;
+}
+.header .logo i{
+  color: #fff;
+  padding: 0.5rem;
+}
+.header .navbar a{
+  font-size: 1.1rem;
+  margin: 0 1rem;
+  color: #fff;
+}
+.header .navbar a:hover{
+  color: #baa6cf;
+}
+.header .btn{
+  background: transparent;
+  color: tomato;
+  border: 1px solid tomato;
+  font-size: 12px;
+  padding: 8px;
+}
+
+/* Home Section */
+.max-width{
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
+}
+section{
+  padding: 100px 0 500px 0;
+}
+.home{
+  display: flex;
+}
+.home .max-width{
+  width: 100%;
+  display: flex;
+}
+.home .home-content{
+  width: 30%;
+  padding: 2rem;
+}
+.home h3{
+  color: #fff;
+  margin-top: 6rem;
+  font-size: 5rem;
+  font-family: 'Philosopher', sans-serif;
+}
+.home p{
+  color: rgb(194, 191, 191);
+  margin-top: 1rem;
+  font-size: 12px;
+}
+.home .home-image{
+  width: 50%;
+}
+.home .home-image img{
+  width: 200%;
+  height: 100%;
+}
+hr.{
+  border: 1px rgb(176, 18, 18);
+}
+
+.rahul{
+  width: 100%;
+  height: 100%;
+}
+.about{
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-gap: 1.5rem;
+  align-items: center;
+}
+.about img img{
+  max-width: 100%;
+  width: 480%;
+  height: auto;
+}
+.Latest-Events span{
+  color: rgb(245, 42, 7);
+  font-weight: 600;
+}
+.Latest-Events h2{
+  font-size: var(--h2-font);
+  color: #fff;
+}
+.Latest-Events p{
+  margin: 0.8rem 0 1.8rem;
+  line-height: 1.7;
+}
+.heading{
+  text-align: center;
+}
+.heading span{
+  color: var(--main-color);
+  font-weight: 600;
+}
+.heading h2{
+  font-size: var(--h2-font);
+  color: #fff;
+}
